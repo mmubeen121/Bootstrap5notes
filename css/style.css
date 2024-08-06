@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container{
+    width: 100vw;
+}
+
+/* Navbar Styling */
+li {
+    list-style-type: none;
+    float: right;
+    padding-inline: 16px;
+}
+ul li a {
+    text-decoration: none;
+    color:#e0e0e0;
+    display: block;
+    font-size: 1.5rem;
+    padding: 1.5rem;
+}
+li a:hover {
+    background-color: #45567d;
+
+}
+.navbar{
+    display: flex;
+    justify-content: flex-end;
+    background-color: #be3144;
+}
+/* Navbar Styling End*/
