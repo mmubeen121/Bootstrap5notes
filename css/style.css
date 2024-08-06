@@ -32,3 +32,30 @@ li a:hover {
     background-color: #be3144;
 }
 /* Navbar Styling End*/
+
+
+/* Hero section Styling*/
+
+.hero-sect{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background-color: #000;
+    background-image: linear-gradient(62deg, #3a3d40 0%, #181719 100%);
+}
+.hero-sect > p {
+    font-size: 3rem;
+    font-weight: 200;
+    font-style: italic;
+    color: #be3144;
+}
+h1{
+    font-weight: 600;
+    text-align: center;
+    font-size: 5rem;
+    color: #e0e0e0;
+}
+/* Hero section Styling End*/
